@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geda Power Transmission Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        .form-group button {
+            padding: 10px 15px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #555;
+        }
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project div {
+            flex: 1;
+            margin: 10px;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+        .blog {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .signup, .contact {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Geda Power Transmission Project</h1>
+        <p>Expertise in Transmission Substation Construction</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#signup">Sign Up</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Geda Power Transmission Project</h2>
+        <p>We specialize in the construction of high-quality transmission substations. Our team of experts ensures the delivery of reliable and efficient power solutions.</p>
+        <img src="your-image-url.jpg" alt="Transmission Substation">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Founded in 1990, we have over 30 years of experience in the industry. Our mission is to provide reliable and efficient power transmission solutions. We are dedicated to innovation, quality, and customer satisfaction.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Design and Engineering: We provide comprehensive design and engineering services to meet your specific needs.</li>
+            <li>Construction and Installation: Our skilled team ensures timely and quality construction and installation of substations.</li>
+            <li>Maintenance and Upgrades: We offer maintenance and upgrade services to ensure the longevity and efficiency of your substations.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project">
+            <div>
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+                <img src="project1-image-url.jpg" alt="Project 1">
+            </div>
+            <div>
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+                <img src="project2-image-url.jpg" alt="Project 2">
+            </div>
+            <div>
+                <h3>Project 3</h3>
+                <p>Description of Project 3</p>
+                <img src="project3-image-url.jpg" alt="Project 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog">
+            <h3>Latest Industry Trends</h3>
+            <p>Stay updated with the latest trends and technologies in the power transmission industry. Our experts share insights and updates to keep you informed.</p>
+        </div>
+        <div class="blog">
+            <h3>Company News</h3>
+            <p>Get the latest news and updates about our company's achievements, events, and new projects.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="your-form-handler-url" method="post" class="contact">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="signup">
+        <h2>Sign Up</h2>
+        <form action="your-signup-handler-url" method="post" class="signup">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Geda Power Transmission Project. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript for additional functionality can be added here
+    </script>
+</body>
+</html>
